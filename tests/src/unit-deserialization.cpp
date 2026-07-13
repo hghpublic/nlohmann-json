@@ -6,6 +6,9 @@
 // SPDX-FileCopyrightText: 2013-2026 Niels Lohmann <https://nlohmann.me>
 // SPDX-License-Identifier: MIT
 
+#include <cstddef>
+using rsize_t = size_t;
+
 #include "doctest_compatibility.h"
 
 #include <nlohmann/json.hpp>

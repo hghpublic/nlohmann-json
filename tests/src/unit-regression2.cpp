@@ -13,6 +13,9 @@
 // version macro in a comment close by, like this:
 // JSON_HAS_CPP_<VERSION> (do not remove; see note at top of file)
 
+#include <cstddef>
+using rsize_t = size_t;
+
 #include "doctest_compatibility.h"
 
 // for some reason including this after the json header leads to linker errors with VS 2017...
